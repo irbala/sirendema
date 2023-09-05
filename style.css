@@ -53,8 +53,11 @@ body.home {
 }
 
 .index-page {
-background-image: url("https://r4.wallpaperflare.com/wallpaper/449/233/264/danish-painter-1913-peter-merk-of-menstad-peder-m%C3%B8rk-m%C3%B8nsted-wallpaper-e816bcbabf9c8739ee4019d282895b30.jpg");   
- display: flex;
+   background-image: url("https://r4.wallpaperflare.com/wallpaper/449/233/264/danish-painter-1913-peter-merk-of-menstad-peder-m%C3%B8rk-m%C3%B8nsted-wallpaper-e816bcbabf9c8739ee4019d282895b30.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed */
+    display: flex;
     justify-content: center;
     align-items: flex-end; /* Align to the bottom */
     height: 100vh; /* Take up full viewport height */
