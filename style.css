@@ -1,0 +1,383 @@
+@import url('https://fonts.cdnfonts.com/css/waterfall');
+@import url('https://fonts.cdnfonts.com/css/cormorant-garamond');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddceb9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
+
+
+
+body.home {
+    transform: translateY(-100vh); /* Move the content down by the height of the viewport */
+    transition: transform 0.5s ease-in-out; /* Add transition properties */
+}
+
+.home-page {
+    background-image: url("https://r4.wallpaperflare.com/wallpaper/449/233/264/danish-painter-1913-peter-merk-of-menstad-peder-m%C3%B8rk-m%C3%B8nsted-wallpaper-e816bcbabf9c8739ee4019d282895b30.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Push content to the top and bottom */
+    min-height: 100vh;
+}
+
+.home-main-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center horizontally */
+    background-color: #ddceb9;
+    text-align: center;
+}
+    .home-content {
+
+        background-color: #ddceb9;
+    }
+#index-page {
+    font-family: 'Waterfall', sans-serif;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-page {
+background-image: url("https://r4.wallpaperflare.com/wallpaper/449/233/264/danish-painter-1913-peter-merk-of-menstad-peder-m%C3%B8rk-m%C3%B8nsted-wallpaper-e816bcbabf9c8739ee4019d282895b30.jpg");   
+ display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align to the bottom */
+    height: 100vh; /* Take up full viewport height */
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#start-page {
+    background-color: #ddceb9;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 80vh; /* This ensures it takes up the full viewport height */
+    width: 90vh; /* This ensures it takes up the full viewport height */
+    border-radius:100px 100px 0px 0px;
+    border: 5px solid #bdac94;
+   opacity: 95%;
+}
+
+
+.start-title {
+    font-family: 'Waterfall', sans-serif;
+    font-size: 10rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d4918f;
+    text-shadow: 2px 2px 4px #45423b;
+}
+
+.site-title {
+    font-family: 'Waterfall', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ddceb9;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #45423b;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff9f4;
+}
+h2{
+    color: #5d5447;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e9d6af;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+}
+
+button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #949b8a;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+button span {
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #ffefe1;
+}
+
+button svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #fff9f4;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+button:hover:before {
+    width: 100%;
+    background: #949b8a;
+}
+
+button:hover svg {
+    transform: translateX(0);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#start-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 400px;
+    margin: 20px;
+}
+
+.start-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Style the sidebar */
+.sidebar {
+    background-color: #ccb8a4;
+    padding: 20px;
+    width: 200px;
+    height: 100%;
+    position: fixed; /* Use fixed position */
+    top: 0; /* Stick to the top */
+    bottom: 0;
+    overflow-y: auto; /* Add scrolling for content exceeding the height */
+}
+
+.copy-right{
+
+    position: fixed;
+    bottom: 10px;
+    margin: 10px;
+}
+
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-bottom: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #5d5447;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0;
+    padding: 20px;
+}
+
+.section {
+  padding: 40px;
+    text-align: center; 
+
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+}
+
+.mySlides img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Add styles for slideshow controls */
+a.prev, a.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a.next {
+    right: 0;
+}
+
+/* Add animation for slideshow */
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-text {
+    max-width: 600px;
+    margin-bottom: 40px;
+    color: #5d5447;
+font-size: 20px;
+text-align: justify;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Update the CSS for the gallery grid to have two columns and move it to the right */
+.gallery-preview-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Two columns with equal width */
+}
+
+/* Rest of the gallery CSS remains the same */
+.gallery-item {
+    overflow: hidden;
+
+}
+
+.gallery-item img {
+    width: 600px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+
+
+/* Style the contact section */
+#contact {
+    text-align: center;
+    background-color: #e6ddd2;
+    padding: 40px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin: 10px;
+    display: inline;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #866572; /* Twitter blue color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #e0c0cb; /* Instagram pink color */
+}
+
+
+
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+
+    .section {
+        padding: 20px;
+    }
+}
