@@ -373,14 +373,50 @@ text-align: justify;
 
 
 
-
 /* Add responsive styles */
 @media (max-width: 768px) {
-    nav ul {
+    /* Navigation Menu */
+    .nav-menu {
         text-align: center;
     }
 
+    .nav-menu li {
+        display: inline-block; /* Display list items side by side */
+        margin-right: 10px; /* Add some space between items */
+    }
+
+    .nav-menu li:last-child {
+        margin-right: 0; /* Remove margin for the last item */
+    }
+
+    /* Sections */
     .section {
         padding: 20px;
     }
+
+    /* Sidebar */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    img {
+        max-width: 100%; /* Adjust image width for smaller screens */
+    }
+
+    #gallery-preview {
+        margin: 0;
+        padding: 0;
+    }
+}
+.copy-right {
+font-size: 10px;
+    opacity: 50%;
 }
