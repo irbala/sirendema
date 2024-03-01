@@ -202,12 +202,7 @@ img {
     overflow-y: auto; /* Add scrolling for content exceeding the height */
 }
 
-.copy-right{
 
-    position: fixed;
-    bottom: 10px;
-    margin: 10px;
-}
 
 
 .nav-menu {
@@ -229,6 +224,15 @@ img {
     max-width: 1200px;
     margin: 0;
     padding: 20px;
+}
+
+.copy-right {
+
+    position: fixed;
+    bottom: 10px;
+    margin: 10px;
+    font-size: 16px;
+            opacity: 100%;
 }
 
 .section {
@@ -390,7 +394,15 @@ font-size: 90px;
 }
 
 
-
+/* Copyright Section */
+.copy-right {
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+    align-items: center; /* Align items vertically in the center */
+    font-size: 12px;
+    opacity: 0.6; /* Adjust opacity as needed */
+    position: relative;
+}
 
 
 
@@ -434,8 +446,4 @@ font-size: 90px;
         margin: 0;
         padding: 0;
     }
-}
-.copy-right {
-font-size: 10px;
-    opacity: 50%;
 }
