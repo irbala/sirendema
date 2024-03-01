@@ -375,6 +375,25 @@ text-align: justify;
 
 /* Add responsive styles */
 @media (max-width: 768px) {
+.index-page {
+    width: 100%;
+    opacity: 95%;
+}
+
+.index-page img {
+    width: 50%;
+}
+
+.start-title {
+    text-align: center;
+font-size: 90px;
+}
+
+
+
+
+
+
     /* Navigation Menu */
     .nav-menu {
         text-align: center;
