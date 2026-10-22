@@ -116,7 +116,9 @@ header {
     text-align: center;
 }
 
-button {
+.cta {
+    display: inline-block;
+    text-decoration: none;
     position: relative;
     margin: auto;
     padding: 12px 18px;
@@ -125,7 +127,7 @@ button {
     background: none;
 }
 
-button:before {
+.cta:before {
     content: "";
     position: absolute;
     top: 0;
@@ -138,7 +140,7 @@ button:before {
     transition: all 0.3s ease;
 }
 
-button span {
+.cta span {
     position: relative;
     font-size: 18px;
     font-weight: 700;
@@ -146,7 +148,7 @@ button span {
     color: #ffefe1;
 }
 
-button svg {
+.cta svg {
     position: relative;
     top: 0;
     margin-left: 10px;
@@ -159,16 +161,17 @@ button svg {
     transition: all 0.3s ease;
 }
 
-button:hover:before {
+.cta:hover:before,
+.cta:focus-visible:before {
     width: 100%;
     background: #949b8a;
 }
 
-button:hover svg {
+.cta:hover svg {
     transform: translateX(0);
 }
 
-button:active {
+.cta:active {
     transform: scale(0.95);
 }
 
@@ -241,55 +244,6 @@ img {
 
 }
 
-.slideshow-container {
-    position: relative;
-    max-width: 100%;
-    margin-top: 20px;
-}
-
-.mySlides {
-    display: none;
-    text-align: center;
-}
-
-.mySlides img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* Add styles for slideshow controls */
-a.prev, a.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 16px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 24px;
-}
-
-a.next {
-    right: 0;
-}
-
-/* Add animation for slideshow */
-.fade {
-    animation-name: fade;
-    animation-duration: 2s;
-}
-
-@keyframes fade {
-    0% {
-        opacity: 0.4;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 .about-content {
     display: flex;
     flex-direction: column;
