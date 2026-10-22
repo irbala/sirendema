@@ -1,14 +1,14 @@
-Sirendeema - Artist Portfolio Website
+Sirendema - Artist Portfolio Website
 
 Click here to visit the website: https://irbala.github.io/sirendema/
 
 Description:
 
-This is a creative and visually stunning portfolio website designed for Sirendeema , a talented artist looking to showcase her work to a wider audience. 
+This is a creative and visually stunning portfolio website designed for Sirendema , a talented artist looking to showcase her work to a wider audience. 
 The website serves as an online gallery, allowing visitors to explore her art, learn about her creative process, and connect with her for collaborations or commissions.
 
 Built using HTML , CSS , and JavaScript , this project highlights my ability to create engaging, responsive, and visually captivating web experiences tailored to the unique needs of artists and creatives. 
-The design reflects Sirendeema's artistic style, ensuring a seamless blend of aesthetics and functionality.
+The design reflects Sirendema's artistic style, ensuring a seamless blend of aesthetics and functionality.
 
 Through this project, I demonstrate expertise in:
 
