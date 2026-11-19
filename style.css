@@ -93,7 +93,7 @@ body.home {
     margin-bottom: 40px;
     color: #ede4d8;
     font-size: 60px;
-    text-shadow: 2px 2px 4px #45423b;
+    text-shadow: 1px 1px 1px #45423b, 2px 2px 4px #45423b;
 
 }
 
@@ -219,7 +219,7 @@ img {
 
 .nav-menu a {
     text-decoration: none;
-    color: #5d5447;
+    color: #4a4237;
     font-weight: bold;
 }
 
@@ -320,7 +320,7 @@ text-align: justify;
 
 .contact-info a {
     text-decoration: none;
-    color: #866572; /* Twitter blue color */
+    color: #6e505c; /* Dusty plum, dark enough for 4.5:1 contrast */
     font-weight: bold;
     transition: color 0.3s ease;
 }
